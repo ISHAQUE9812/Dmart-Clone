@@ -9,8 +9,12 @@ import ProfileCard from './Component/ProfileCard'
 import SearchFilter from './Component/SearchFilter'
 import FiveStarRating from './Component/FiveStarRating'
 import GitHubProfileFinder from './Component/GitHubProfileFinder'
-
-
+import WeatherApp from './Component/WeatherApp'
+import CurrencyConverter from './Component/CurrencyConverter'
+import MovieSearchApp from './Component/MovieSearchApp'
+import LazyLoadingImages from './Component/LazyLoadingImages'
+import InfiniteScroll from './Component/InfiniteScroll'
+import Pagination from './Component/Pagination'
 const App = () => {
   return (
     <div className=' w-full h-screen'>
@@ -20,11 +24,16 @@ const App = () => {
        {/* <Task4/> */}   {/*completed*/}
        {/* <Task5/> */}   {/*completed*/}
        {/* <Task6/> */}   {/*completed*/}
-      {/* <ProfileCard/> */}
       {/* <SearchFilter/> */}
       {/* <FiveStarRating/> */}
-      <GitHubProfileFinder/>
-
+      {/* <ProfileCard/> */}           {/* API Ka Task Start  */}
+      {/* <GitHubProfileFinder/> */}
+      {/* <WeatherApp/> */}         {/*INcompleted*/}
+      {/* <CurrencyConverter /> */} {/*INcompleted*/}
+        {/* <MovieSearchApp/> */}
+        {/* <LazyLoadingImages/> */}
+        {/* <InfiniteScroll /> */}
+        {/* <Pagination/> */}    {/*ye concept alag tha */}
     </div>
   )
 }
