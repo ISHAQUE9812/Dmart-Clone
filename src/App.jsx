@@ -33,7 +33,7 @@ const App = () => {
         {/* <MovieSearchApp/> */}
         {/* <LazyLoadingImages/> */}
         {/* <InfiniteScroll /> */}
-        {/* <Pagination/> */}    {/*ye concept alag tha */}
+        {/* <Pagination/> */}    {/*ye concept alag tha isko formula hai */}
     </div>
   )
 }
